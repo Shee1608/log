@@ -1,0 +1,110 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    margin: auto;
+    box-sizing: border-box;
+    height: 100vh;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.intro .navbar a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 35px 20px;
+    
+}
+
+.intro{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 720px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("images/annie-spratt-XRN9JXKKIYM-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.intro h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color: #fff;
+    font-weight: bold;
+    margin: 0;
+}
+
+.intro p{
+    font-size: 20px;
+    color: aliceblue;
+    
+}
+
+
+
+#about p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 80px;
+    border-top: 2px;
+    height: 100vh;
+    color: whitesmoke;
+    font-size: larger;
+    background-image: url(images/bence-boros-uayGxjQc8TI-unsplash.jpg);
+}
+
+#footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(8, 35, 60);
+    padding: 40px 80px;
+}
+
+#footer .copy{
+    color: whitesmoke;
+}
+
+#footer .bottom-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0 ;
+}
+
+.bottom-links .links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+}
+#footer .links span{
+    font-size: 20px;
+    color: whitesmoke;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+#footer .links a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px 20px;
+}
+
+#footer a:hover{
+    color: white;
+}
+
